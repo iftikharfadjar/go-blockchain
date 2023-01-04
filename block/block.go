@@ -17,7 +17,7 @@ func (b *Block) Print() {
 	fmt.Printf("timestamp 		%d\n", b.timestamp)
 	fmt.Printf("nonce 			%d\n", b.nonce)
 	fmt.Printf("previous_hash 	%s\n", b.previouseHash)
-	fmt.Printf("transaction 	%s\n", b.transaction)
+	fmt.Printf("transaction 	%s\n", b.transactions)
 }
 
 func NewBlock(nonce int, previouseHash string) *Block {
