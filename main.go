@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"block/block.go"
+	"blockchain-go.com/block.go"
 )
 
 func main() {
